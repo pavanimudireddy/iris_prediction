@@ -1,4 +1,4 @@
-# 🌸 Iris Flower Classification App
+## 🌸 Iris Flower Classification App
 
 A **Machine Learning web app** built with **Python**, **scikit-learn**, and **Streamlit** to predict the species of an Iris flower — *Setosa*, *Versicolor*, or *Virginica* — using its sepal and petal dimensions.
 
@@ -65,11 +65,11 @@ cd iris-flower-classification
 ## 2.Install Dependencies
 - pip install -r requirements.txt
 - If you don’t have requirements.txt, create one with:
-- streamlit
-- pandas
-- numpy
-- scikit-learn
-- 
+  - streamlit
+  - pandas
+  - numpy
+  - scikit-learn
+  
 ## 3.Run the Streamlit App
 streamlit run iris_app.py
 
@@ -79,7 +79,8 @@ When you enter the sepal and petal dimensions, the app will display a prediction
 The predicted flower species is Setosa
 
 ## 📸 Preview
-![App Screenshot](screenshot.png)
+
+<img width="1036" height="802" alt="app" src="https://github.com/user-attachments/assets/9ed23798-d42b-45c0-84f6-90f63db81803" />
 
 ## 🧩 Project Structure
 .
@@ -100,7 +101,7 @@ The predicted flower species is Setosa
 - Basics of end-to-end ML deployment on a local machine
 
 - Understanding Random Forest Classifier and feature importance
-- 
+  
 ## 🔗 Useful Links
 
 - Project Link:
