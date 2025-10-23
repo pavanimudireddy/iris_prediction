@@ -63,28 +63,23 @@ git clone https://github.com/pavani mudireddy/iris-flower-classification.git
 cd iris-flower-classification
 ```
 ## 2.Install Dependencies
-pip install -r requirements.txt
-If you don’t have requirements.txt, create one with:
-streamlit
-pandas
-numpy
-scikit-learn
+- pip install -r requirements.txt
+- If you don’t have requirements.txt, create one with:
+- streamlit
+- pandas
+- numpy
+- scikit-learn
+- 
 ## 3.Run the Streamlit App
 streamlit run iris_app.py
 
 ## 📊 Output
 
 When you enter the sepal and petal dimensions, the app will display a prediction such as:
-The predicted flower species is Virginica 🌼
+The predicted flower species is Setosa
 
-Example Inputs:
-Feature	Value
-Sepal Length	5.4 cm
-Sepal Width	3.4 cm
-Petal Length	4.5 cm
-Petal Width	1.3 cm
-
-Predicted Output: Versicolor 🌸
+## 📸 Preview
+![App Screenshot](screenshot.png)
 
 ## 🧩 Project Structure
 .
@@ -109,6 +104,7 @@ Predicted Output: Versicolor 🌸
 ## 🔗 Useful Links
 
 - Project Link:
+  https://github.com/pavanimudireddy/iris_prediction
 - LinkedIn:
   www.linkedin.com/in/pavani-mudireddy
 
