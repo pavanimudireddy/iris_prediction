@@ -71,7 +71,7 @@ cd iris-flower-classification
   - scikit-learn
   
 ## 3.Run the Streamlit App
-streamlit run iris_app.py
+streamlit run App.py
 
 ## 📊 Output
 
