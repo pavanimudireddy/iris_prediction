@@ -57,8 +57,32 @@ This project helped me understand the real-world flow of deploying ML models int
 
 ## 💻 How to Run Locally
 
-### 1️⃣ Clone the Repository
+## 1.Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/iris-flower-classification.git
+git clone https://github.com/pavani mudireddy/iris-flower-classification.git
 cd iris-flower-classification
+## 2.Install Dependencies
+pip install -r requirements.txt
+If you don’t have requirements.txt, create one with:
+streamlit
+pandas
+numpy
+scikit-learn
+## 3.Run the Streamlit App
+streamlit run iris_app.py
 
+## 📊 Output
+
+When you enter the sepal and petal dimensions, the app will display a prediction such as:
+The predicted flower species is Virginica 🌼
+
+Example Inputs:
+Feature	Value
+Sepal Length	5.4 cm
+Sepal Width	3.4 cm
+Petal Length	4.5 cm
+Petal Width	1.3 cm
+
+Predicted Output: Versicolor 🌸
+
+🧩 Project Structure
