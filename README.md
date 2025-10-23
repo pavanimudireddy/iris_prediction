@@ -61,6 +61,7 @@ This project helped me understand the real-world flow of deploying ML models int
 ```bash
 git clone https://github.com/pavani mudireddy/iris-flower-classification.git
 cd iris-flower-classification
+```
 ## 2.Install Dependencies
 pip install -r requirements.txt
 If you don’t have requirements.txt, create one with:
@@ -85,4 +86,42 @@ Petal Width	1.3 cm
 
 Predicted Output: Versicolor 🌸
 
-🧩 Project Structure
+## 🧩 Project Structure
+.
+├── train_model.py         # Script to train and save the ML model
+├── ML_API.py              # Trained model file (Pickle)
+├── App.py                 # Streamlit web application
+├── requirements.txt       # Python dependencies
+└── README.md              # Project documentation
+
+## 🎓 Key Learnings
+
+- How to use scikit-learn to train classification models
+
+- How to serialize ML models with pickle
+
+- How to build interactive web apps using Streamlit
+
+- Basics of end-to-end ML deployment on a local machine
+
+- Understanding Random Forest Classifier and feature importance
+- 
+## 🔗 Useful Links
+
+- Project Link:
+- LinkedIn:
+  www.linkedin.com/in/pavani-mudireddy
+
+## 🚀 Future Improvements
+
+✅ Add flower image display for each predicted species
+
+✅ Show model accuracy, confusion matrix, and metrics
+
+🔲 Include feature importance visualization
+
+🔲 Deploy the app on Streamlit Cloud or Hugging Face Spaces
+
+🔲 Add an option to upload CSV files for batch predictions
+
+  
