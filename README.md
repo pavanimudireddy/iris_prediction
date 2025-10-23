@@ -121,4 +121,15 @@ The predicted flower species is Setosa
 
 🔲 Add an option to upload CSV files for batch predictions
 
+
+Thank you for checking out this project! I hope this Iris Flower Classification app helps you understand the basics of machine learning model training, serialization, and deployment using Streamlit.
+
+Feel free to:
+
+⭐ Star this repository if you found it helpful
+
+🐞 Report issues or suggest improvements
+
+🚀 Contribute and help make this project better!
+
   
